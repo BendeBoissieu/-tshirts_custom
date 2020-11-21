@@ -6,7 +6,7 @@ import { displayMenu} from '../actions';
 import ImgDesign from './img_design';
 
 
-const image_designs = ["garden_trolley", "happy_father", "black_white_rainbow", "guitar_player", "happy_father"];
+const image_designs = ["garden_trolley", "happy_father", "black_white_rainbow", "guitar_player"];
 
 class FindDesign extends Component {
   closeMenu = (e) => {
