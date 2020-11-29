@@ -40,8 +40,9 @@ class UploadImage extends Component {
             <input className="fileInput"
               type="file"
               onChange={(e)=>this._handleImageChange(e)} />
+            <br />
+            <br />
             {renderImgUploaded()}
-            <button type="button" onClick={this.submit} > Upload </button>
           </form>
 
         </div>

@@ -40,6 +40,10 @@
   right: 50px;
 }
 
+.moveable-rotation .moveable-rotation-control {
+  cursor: grab !important;
+}
+
 .moveable img{
   position: relative;
 }

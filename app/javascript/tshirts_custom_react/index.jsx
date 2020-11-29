@@ -31,10 +31,6 @@ const initialState = {
   textAdded: {text: "", size: "14", color: "black", weight: "normal", style: "normal", decoration: "none", align: "left"}
 };
 
-const Hello = props => (
-  <div>Hello {props.name}!</div>
-)
-
 // render an instance of the component in the DOM
 ReactDOM.render(
   <Provider store={createStore(reducers, initialState)}>

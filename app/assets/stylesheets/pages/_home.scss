@@ -1,9 +1,9 @@
 // Specific CSS for your home-page
-h2{
+h2 {
   margin: 0 0 10px 0;
 }
 
-h3{
+h3 {
   text-align: center;
   background-color: #79CFC3;
   color: white;
@@ -12,11 +12,11 @@ h3{
 }
 
 
-p{
+p {
   color: #7b7b7b; //light-grey
 }
 
-.container{
+.container {
   margin-top: 20px;
   padding: 20px;
   background-color: #f5f5f5;
@@ -25,7 +25,7 @@ p{
 //color_list
 .color-preview {
   border: 1px solid #CCC;
-  margin: 2px;
+  margin: 0 5px;
   vertical-align: top;
   float: left;
   cursor: pointer;
@@ -35,12 +35,12 @@ p{
   border-radius: 50%;
 }
 
-.color-preview.color-selected{
+.color-preview.color-selected {
   border: 3px solid #4eb974;
 }
 
 //app
-.button-custom{
+.button-custom {
   border: 1px solid #7b7b7b; //light-grey
   color: #7b7b7b;
   padding: 5px;
@@ -50,7 +50,7 @@ p{
   margin: 15px 0px;
 }
 
-.rectangle-customize{
+.rectangle-customize {
   width: 100%;
   min-height: 314px; //image-title
   z-index: 1;
@@ -60,11 +60,11 @@ p{
   overflow: hidden;
 }
 
-.show_menu{
+.show_menu {
   display: block;
 }
 
-.img_design img{
+.img_design img {
   position: relative;
 }
 
@@ -86,13 +86,21 @@ p{
 }
 
 //Add text
-.container-add-text{
+.container-add-text {
   margin: 0 50px;
 }
 
-.icon-text-style{
+.icon-text-style {
   margin: 5px 10px;
   height: 30px;
   width: 30px;
   padding: 5px;
+}
+
+.previewComponent {
+  padding: 20px;
+}
+
+.previewComponent input {
+  overflow: hidden;
 }

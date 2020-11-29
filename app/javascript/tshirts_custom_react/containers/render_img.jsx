@@ -34,7 +34,7 @@ class RenderImg extends Component {
 
 
     var isImgArt = this.props.selectedImgArt != null ? true  : false
-    const src = `/art_word/${this.props.selectedImgArt}.svg`;
+    const src = `/art_word/${this.props.selectedImgArt}`;
     const renderImgArt = () => {
       if(isImgArt) {
         return <img src={src} data-target={this.props.selectedImgArt} dataimage={this.props.selectedImgArt} data-type="find_design" alt={this.props.selectedImgArt} width="100px" />
